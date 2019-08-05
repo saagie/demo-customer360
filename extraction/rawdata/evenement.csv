@@ -1,0 +1,25 @@
+codeclient,id,evtno,evt,evtlib,description,user,evtdate,note
+C001,1,42000,MAIL,Incoming / Outgoing E-Mail,Mail to M. Vandel to confirm prices,Jason,2020-04-19T00:00:00+0100,Mail sent to M. Vandel to confirm the prices he has in his catalog. The prices sent are applicable up to 01/01/2016.
+C001,2,42001,QUALITY,Complaint,Defective Eyewear and packaging problem,Jason,2020-03-25T00:00:00+0100,"Problem solved by telephone, a new batch will be sent the 28/04/2016."
+C001,3,42002,QUALITY,Complaint,Packaging problem,Jason,2020-03-25T00:00:00+0100,"The packaging of a batch is damaged, however the products inside are intact The customer didn t request a new batch."
+C001,4,42003,QUOTATION,Quotation / Price Offer,Quotation M. SMITH,John,2020-02-15T00:00:00+0100,Renewal of quotation D051 
+C001,5,42004,APPOINTMENT,Appointment / Visit Debriefing,Appointment request,John,2019-12-20T00:00:00+0100,"M BAILEY asked for an appointment, it got planned on the 12/01/2016"
+C001,6,42005,GEST,Good-will gesture,Good will gesture concerning the I10138 invoice.,John,2019-11-04T00:00:00+0100,M BRODY has been offered a good-will gesture on 10 irons.
+C001,7,42006,PAYMENT,Payment remainder,Payment remainder I10135,Helen,2019-10-03T00:00:00+0100,Mr BRODY has been remainded for the I10135 invoice which is not paid yet.
+C001,8,42007,PAYMENT,Payment remainder,Payment remainder  I10136,Helen,2020-04-03T00:00:00+0100,Mr BAILEY has been remainded for the I10136 invoice which is not paid yet.
+C002,1,42000,MAIL,Incoming / Outgoing E-Mail,Mail to M. Vandel to confirm prices,Jason,2020-04-19T00:00:00+0100,Mail sent to M. Vandel to confirm the prices he has in his catalog. The prices sent are applicable up to 01/01/2017.
+C002,2,42001,QUALITY,Complaint,Defective Eyewear and packaging problem,Jason,2020-03-25T00:00:00+0100,"Problem solved by telephone, a new batch will be sent the 28/04/2016."
+C002,3,42002,QUALITY,Complaint,Packaging problem,Jason,2020-03-25T00:00:00+0100,"The packaging of a batch is damaged, however the products inside are intact The customer didn t request a new batch."
+C002,4,42003,QUOTATION,Quotation / Price Offer,Quotation M. SMITH,John,2020-02-15T00:00:00+0100,Renewal of quotation D051 
+C002,5,42004,APPOINTMENT,Appointment / Visit Debriefing,Appointment request,John,2019-12-20T00:00:00+0100,"M BAILEY asked for an appointment, it got planned on the 12/01/2016"
+C002,6,42005,GEST,Good-will gesture,Good will gesture concerning the I10138 invoice.,John,2019-11-04T00:00:00+0100,M BRODY has been offered a good-will gesture on 10 irons.
+C002,7,42006,PAYMENT,Payment remainder,Payment remainder I10135,Helen,2019-10-03T00:00:00+0100,Mr BRODY has been remainded for the I10135 invoice which is not paid yet.
+C002,8,42007,PAYMENT,Payment remainder,Payment remainder  I10136,Helen,2020-04-03T00:00:00+0100,Mr BAILEY has been remainded for the I10136 invoice which is not paid yet.
+C003,1,42000,MAIL,Incoming / Outgoing E-Mail,Mail to M. Vandel to confirm prices,Jason,2020-04-19T00:00:00+0100,Mail sent to M. Vandel to confirm the prices he has in his catalog. The prices sent are applicable up to 01/01/2017.
+C003,2,42001,QUALITY,Complaint,Defective Eyewear and packaging problem,Jason,2020-03-25T00:00:00+0100,"Problem solved by telephone, a new batch will be sent the 28/04/2016."
+C003,3,42002,QUALITY,Complaint,Packaging problem,Jason,2020-03-25T00:00:00+0100,"The packaging of a batch is damaged, however the products inside are intact The customer didn t request a new batch."
+C003,4,42003,QUOTATION,Quotation / Price Offer,Quotation M. SMITH,John,2020-02-15T00:00:00+0100,Renewal of quotation D051 
+C003,5,42004,APPOINTMENT,Appointment / Visit Debriefing,Appointment request,John,2019-12-20T00:00:00+0100,"M BAILEY asked for an appointment, it got planned on the 12/01/2016"
+C003,6,42005,GEST,Good-will gesture,Good will gesture concerning the I10138 invoice.,John,2019-11-04T00:00:00+0100,M BRODY has been offered a good-will gesture on 10 irons.
+C003,7,42006,PAYMENT,Payment remainder,Payment remainder I10135,Helen,2019-10-03T00:00:00+0100,Mr BRODY has been remainded for the I10135 invoice which is not paid yet.
+C003,8,42007,PAYMENT,Payment remainder,Payment remainder  I10136,Helen,2020-04-03T00:00:00+0100,Mr BAILEY has been remainded for the I10136 invoice which is not paid yet.

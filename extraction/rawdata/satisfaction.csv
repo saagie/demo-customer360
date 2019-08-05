@@ -1,0 +1,4 @@
+codeclient,id,ca,nbcommande,txcommandesansreliquat,txservice,nbincidentproduit,txincident,txlitige,txsatisfaction,txcommandesansreliquatfr,txservicefr,txlitigefr,txincidentfr,cafr,nbcmdfr,mtmoyfr,cagrp,nbcmdgrp,mtmoygrp,txsatisfactionfr
+C001,1,0,13,1,0.85308,1,0.95308,1.0,0.95254,0.91795,0.960198,0.982092,0.948971,0,9.1229,792.15,0.0,0,0.0,0.9623
+C002,1,0,13,1,0.85308,1,0.95308,1.0,0.95254,0.91795,0.960198,0.982092,0.948971,0,9.1229,792.15,0.0,0,0.0,0.9623
+C003,1,0,13,1,0.85308,1,0.95308,1.0,0.95254,0.91795,0.960198,0.982092,0.948971,0,9.1229,792.15,0.0,0,0.0,0.9623
