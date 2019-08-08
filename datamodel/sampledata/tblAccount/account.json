@@ -1,0 +1,45 @@
+[
+  {"name":"id", "class":"id", "start":1},
+  { 
+    "name":"Name", "class":"lookup", "resource":"companynames.csv"
+  },
+  {"name":"AcctType", "class":"string", "dist":{"Customer - Direct":0.5, "Customer - Channel":0.5, "Other":0.02}},
+  {"name":"BillingStreet", "class":"address"},
+  {"name":"BillingCity", "class": "zip", "fields": "city" },
+  {"name":"BillingState", "class": "state"},
+  {
+       "name": "BillingPostalCode",
+       "class": "zip",
+       "seed": 12,
+       "fields": "zip",
+       "onlyContinental": "true"
+  },
+  {"name": "Phone", "class": "join", "separator": "-", "value": {
+          "class":"sequence",
+          "length":3,
+          "array":[
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 1000, "max": 9999}
+          ]
+  }},
+  {"name": "Fax", "class": "join", "separator": "-", "value": {
+          "class":"sequence",
+          "length":3,
+          "array":[
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 1000, "max": 9999}
+          ]
+  }},
+  {"name": "Email", "class": "join", "separator": "", "value": {
+          "class":"sequence",
+          "length":3,
+          "array":[
+              { "class": "name", "type": "first"},
+              { "class": "name", "type": "last"},
+              { "class": "string", "dist":{"@example.com":1.0}}
+          ]
+  }},
+  {"name":"Status", "class":"string", "dist":{"ActiveCustomer":0.5, "DisCont":0.5, "Other":0.02}}
+]
