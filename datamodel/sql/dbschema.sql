@@ -45,6 +45,7 @@ Name varchar(100) NOT NULL,
 categoryid int,
 status varchar(20) DEFAULT 'Áctive',
 price int NOT NULL,
+profitMarginpct int NOT NULL,
 CONSTRAINT category_id_fkey FOREIGN KEY (categoryid)
       REFERENCES customer360.tblProductCategory (id) MATCH SIMPLE
 );
@@ -55,7 +56,6 @@ acctid int,
 orderDate TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
 amount int,
 discount int,
-total int,
 status varchar(20) DEFAULT 'New',
 CONSTRAINT account_acct_id_fkey FOREIGN KEY (acctid)
       REFERENCES customer360.tblAccount (id) MATCH SIMPLE
