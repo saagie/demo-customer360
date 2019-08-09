@@ -1,101 +1,101 @@
-id,Name,AcctType,BillingStreet,BillingCity,BillingState,BillingPostalCode,Phone,Fax,Email,Status
-1,Bausch & Lomb Incorporated,Customer - Direct,59361 Hidden Log View,SCOTLAND,md,68418,925-178-3006,539-556-9079,LynetteJohnson@example.com,ActiveCustomer
-2,Dollar Tree Stores Inc.,Customer - Direct,24879 Easy Pine Grove,CHERRY POINT,md,76185,467-244-6749,260-826-7456,CarolMartin@example.com,DisCont
-3,Precision Castparts Corp,Customer - Channel,92463 Long Willow Turn,SEXTONS CREEK,wi,71038,277-807-9636,747-546-2666,StephenHinkle@example.com,ActiveCustomer
-4,Qwest Communications Intl Inc,Customer - Channel,1036 Lone Willow Corner,LORIMOR,ny,84151,249-920-9690,317-563-1414,PamelaFisk@example.com,ActiveCustomer
-5,W.W. Grainger Inc,Customer - Channel,8408 Long Pioneer Quay,WILSONS MILLS,nc,24957,343-760-7632,783-169-3787,BarbaraBaker@example.com,Other
-6,Constellation Emergy Group Inc.,Customer - Direct,619 Pleasant Autumn Lane,DESERT HOT SPRINGS,oh,83337,679-356-8147,508-400-7661,DaveRamirez@example.com,DisCont
-7,E.I. Du Pont de Nemours and Company,Customer - Channel,34983 Ivory Panda Shoal,MYRA,wa,51572,607-406-4953,666-313-1636,EricNolette@example.com,DisCont
-8,Ingles Market Inc,Customer - Channel,84056 Old Spring Turn,CLEVELAND,tx,93515,374-300-6137,534-364-2056,MichealAdler@example.com,DisCont
-9,Cabot Corp,Customer - Direct,15343 Quaint Chestnut Avenue,GRAVELLY,wv,28344,900-986-1224,361-894-7105,RobertEure@example.com,DisCont
-10,International Flavors & Fragrances Inc.,Customer - Channel,83398 Red Barn Byway,BELLWOOD,il,60130,930-824-9036,447-939-6556,PeggyRenfro@example.com,DisCont
-11,Limited Inc.,Customer - Direct,22646 Birch Hickory Lace,LAS VEGAS,ny,71933,157-854-4541,701-741-1823,JeannaNewton@example.com,DisCont
-12,Limited Inc.,Customer - Channel,33898 Amber Elk Avenue,CADIZ,sc,01960,658-284-3792,938-593-9340,BessieAllen@example.com,ActiveCustomer
-13,Peoples Energy Corp.,Customer - Channel,7344 Orange Peach Terrace,FERNANDINA BEACH,ca,26419,945-353-3168,172-564-6764,NickGrimmer@example.com,ActiveCustomer
-14,Bausch & Lomb Incorporated,Customer - Direct,35622 Thunder Oak Niche,AUSTIN,me,46865,202-443-4896,289-779-4939,FlorenceDugger@example.com,DisCont
-15,Capital One Financial Corp.,Customer - Direct,87957 Old Castle Wander,DUBLIN,pa,84116,128-414-8006,958-924-9727,CherylFaulkner@example.com,DisCont
-16,Tower Automotive Inc.,Customer - Direct,12382 Still Elk Orchard,SALT LAKE CITY,tx,11797,180-996-5863,694-561-4958,JaniceMorgan@example.com,DisCont
-17,PNM Resources Inc,Customer - Direct,1265 Cotton Nut Estates,GURLEY,tx,94578,348-758-7921,124-227-9984,JanieLinden@example.com,ActiveCustomer
-18,Foster Wheeler Ltd.,Customer - Direct,135 Lone Willow Field,STERRETT,ca,60038,857-523-3329,627-335-7849,LawrenceDorsey@example.com,ActiveCustomer
-19,Whirlpool Corporation,Customer - Direct,10187 Jagged Creek Alcove,UNIVERSITY,nc,95221,304-899-4771,316-155-5809,JohnCate@example.com,ActiveCustomer
-20,Danaher Corporation,Customer - Channel,83995 White Forest Shoal,FOREST CITY,fl,29614,622-948-9895,786-626-9915,NancyAllen@example.com,ActiveCustomer
-21,Landstar System Inc.,Customer - Channel,40164 Quaking Lake Dell,PRAIRIE VIEW,ca,57024,327-875-6519,446-437-9514,JasonShelton@example.com,DisCont
-22,NTL Incorporated,Customer - Channel,7859 Tawny Rabbit Ridge,EDEN PRAIRIE,tx,12183,646-708-8496,704-758-3353,FredWood@example.com,DisCont
-23,Tiffany & Co,Customer - Channel,6151 Pleasant Creek Vale,RICHMOND,ca,72611,724-347-1550,328-163-7203,RickyHults@example.com,ActiveCustomer
-24,National City Corp.,Customer - Channel,23176 Rustic Blossom Gardens,PHOENIX,va,16619,275-603-3912,418-920-8873,SuzanneGriffie@example.com,ActiveCustomer
-25,Comfort Systems USA Inc.,Customer - Channel,94502 Honey Forest Place,ALBANY,tx,31207,617-118-5995,729-323-9649,JohnWilliams@example.com,DisCont
-26,Providian Financial Corp.,Customer - Channel,48377 Turning Harbor Path,STRAUGHN,sc,83554,108-982-4160,289-668-5813,LonaMitchell@example.com,DisCont
-27,NVR Inc,Customer - Channel,654 Calm Cloud Corner,AKELEY,sc,61374,997-807-9481,376-716-9446,TravisRoundy@example.com,ActiveCustomer
-28,Eastman Chemical Company,Customer - Channel,1791 Green Butterfly Hollow,CRYSTAL BAY,ar,14815,286-488-4494,434-659-2152,AnitaOleary@example.com,DisCont
-29,H&R Block Inc.,Customer - Direct,75370 Hush Pine Place,NORWICH,ga,74820,207-370-5242,915-114-1262,JoyClark@example.com,ActiveCustomer
-30,Dun & Bradstreet Inc.,Customer - Channel,6975 Broad Pioneer Pace,HAMILTON,ca,76006,493-886-2654,291-119-3278,RaymondBarth@example.com,DisCont
-31,CBRL Group Inc.,Customer - Channel,1450 Emerald Sky Chase,SONTAG,ca,52761,470-683-4809,391-709-5494,CherlyFrank@example.com,DisCont
-32,KB Home,Customer - Direct,97160 Crystal Stone Field,FAIRVIEW,nj,63401,211-538-3268,383-959-6781,SteveBanda@example.com,DisCont
-33,Fidelity National Financial Inc.,Customer - Channel,35622 Lonely Feather Bend,KANSAS CITY,ny,61266,271-576-1196,356-165-4788,ToddGipe@example.com,DisCont
-34,Citizens Communications Co.,Customer - Channel,12403 Colonial Sky Trail,MILLCREEK,wa,10520,490-392-9303,261-296-8172,RalphPickens@example.com,DisCont
-35,Flowserv Corp,Customer - Direct,53626 Shady Wagon Nook,IRWIN,wa,35905,759-797-3683,626-968-9004,PatFenley@example.com,DisCont
-36,Newell Rubbermaid Inc,Customer - Channel,65589 Birch Bluff Bayou,BOILING SPRINGS,nj,95252,964-527-1214,503-851-4798,WilliamGolding@example.com,DisCont
-37,Calpine Corp.,Other,4110 Lonely Mill Jetty,YAKIMA,mi,01902,400-901-2166,407-329-1037,EdnaDevers@example.com,DisCont
-38,Interpublic Group of Companies Inc.,Customer - Direct,795 Strong Diamond Shoal,PRESCOTT,ca,12438,856-168-6555,959-976-4501,EdwinAtkins@example.com,ActiveCustomer
-39,Eaton Corporation,Customer - Direct,572 Cool Bird Lane,SUN VALLEY,sc,19487,612-565-4818,166-283-3040,BarbieSasser@example.com,ActiveCustomer
-40,General Electric Company,Customer - Direct,92505 Bent Pioneer Path,KANE,ga,51038,717-618-1313,864-868-6491,BrentWilson@example.com,ActiveCustomer
-41,Worthington Industries Inc,Customer - Direct,812 Bright Fox Race,SUMNER,fl,93725,409-314-5030,762-374-6637,CleoCarrillo@example.com,DisCont
-42,Allergan Inc.,Customer - Channel,887 Windy Pond Glen,WEST FULTON,ny,67731,321-873-1094,471-545-5582,JimmyJordan@example.com,ActiveCustomer
-43,Trigon Healthcare Inc.,Customer - Channel,66026 Sleepy Embers Bend,HOUSTON,tx,55311,616-412-6994,445-733-1949,PamelaBradford@example.com,ActiveCustomer
-44,Cox Communications Inc.,Customer - Direct,18333 Dusty Apple Lane,SOUTH STRAFFORD,la,40366,675-468-7585,299-966-7996,RosieWillard@example.com,ActiveCustomer
-45,Kerr-McGee Corporation,Customer - Channel,38536 Long Pond Way,SHELBY,or,35478,535-237-1406,316-248-8934,DustinFlaherty@example.com,DisCont
-46,National Rural Utilities Cooperative Finance Corporation,Customer - Direct,58764 Clear Castle Summit,AUDUBON,il,35805,323-200-5510,292-440-7848,MaggieBritton@example.com,ActiveCustomer
-47,Furniture Brands International Inc.,Customer - Channel,19897 Bright Diamond Way,RAGLAND,va,68954,605-750-1589,310-533-2998,TheresaBish@example.com,ActiveCustomer
-48,BorgWarner Inc.,Customer - Channel,996 Happy Lake Orchard,STORRS MANSFIELD,al,11421,512-638-8260,720-468-6495,TaraValencia@example.com,DisCont
-49,Furniture Brands International Inc.,Customer - Direct,95367 Blue Branch Dell,BEREA,md,95315,223-946-2220,959-876-9131,RaymondLee@example.com,ActiveCustomer
-50,Dominion Resources Inc.,Customer - Direct,33561 Still Leaf Corner,UNIVERSITY PARK,ca,70715,807-665-1344,188-981-1393,GaryBrown@example.com,DisCont
-51,Brunswick Corporation,Customer - Direct,35394 Honey Holly Highlands,PEACHTREE CITY,ar,97441,170-812-3279,430-680-1284,JoseParker@example.com,DisCont
-52,Symbol Technologies Inc,Customer - Channel,70668 Lazy Pine Quay,SORRENTO,il,10021,679-904-7582,477-243-2298,JerryMumma@example.com,DisCont
-53,Idacorp Inc.,Customer - Channel,56188 Broad Bird Ledge,CUYAHOGA FALLS,ct,16235,867-913-8448,837-434-2321,JoeHarris@example.com,ActiveCustomer
-54,Polaris Industries Inc.,Customer - Channel,45356 Little Timber Niche,WASHINGTON,va,48122,726-816-3638,448-132-6990,SamWalker@example.com,DisCont
-55,Smith International Inc,Customer - Direct,11324 Indian Elm Arbor,GENOA,fl,83601,245-794-6932,773-784-6851,MichaelCrampton@example.com,DisCont
-56,Staples Inc,Customer - Direct,57959 Emerald Dale Flats,HERMON,tx,75002,708-497-4673,260-360-1984,KimberlyFajardo@example.com,ActiveCustomer
-57,Novellus Systems Inc,Other,36034 Cold Log Knoll,GANSEVOORT,ca,55706,426-437-8595,315-120-4037,DouglasWilliams@example.com,Other
-58,Amtran Inc.,Customer - Channel,10282 Lazy Pebble Valley,SEATTLE,id,65344,171-872-8730,926-856-2863,AngelaReynolds@example.com,DisCont
-59,The Clorox Co.,Customer - Channel,90573 Rose Treasure Canyon,LAS VEGAS,pa,61546,904-821-1736,115-882-5222,AnastasiaRodriguez@example.com,DisCont
-60,IDT Corporation,Customer - Channel,8316 Orange Mill Road,FALL RIVER,pa,41092,846-893-6773,869-248-9266,AmyEstrada@example.com,DisCont
-61,Nacco Industries Inc,Customer - Channel,31577 Red Rock Street,LOS OJOS,ga,46816,323-746-3766,121-997-7966,JoseForster@example.com,DisCont
-62,Dover Corporation Inc.,Customer - Channel,16054 Cold Grove Crest,VACAVILLE,il,65611,583-155-2041,735-164-2727,ClaraTanner@example.com,DisCont
-63,Simon Property Group Inc,Customer - Channel,269 Bright Grove Round,WALHONDING,il,54324,796-680-4666,808-336-3753,WadeBolden@example.com,DisCont
-64,Southwest Gas Corp,Customer - Direct,2079 Sandy Mountain Pass,AUGUSTA,ut,35649,787-465-2019,188-668-5012,JamesBrown@example.com,DisCont
-65,Kimball International Inc.,Customer - Direct,28581 Stony Castle Road,SAN ANTONIO,ny,67213,629-446-4716,793-945-2717,MyrtleStevens@example.com,DisCont
-66,Caterpillar Inc.,Customer - Direct,37961 Red Apple Heights,TACOMA,tx,88517,269-248-9742,382-267-2394,WayneWilliams@example.com,DisCont
-67,Oglethorpe Power Corp.,Customer - Direct,16600 Sandy Mill Wander,HAMPTON,tn,59471,166-796-4649,966-503-1869,LindaChen@example.com,DisCont
-68,ZionsBancorporation,Customer - Channel,25142 Sweet Log Chase,BONFIELD,ca,68380,232-439-3763,767-379-8960,JosephFischer@example.com,DisCont
-69,Pinnacle West Capital Corp,Customer - Direct,1768 Gentle Elm Pass,FULLERTON,mo,30678,806-967-8171,121-399-2238,DavidFinley@example.com,ActiveCustomer
-70,Williams Sonoma Inc,Customer - Channel,53732 Dewy Cloud Grove,CROMWELL,ca,28551,677-600-5171,966-175-7490,SheldonRitter@example.com,DisCont
-71,USFreighways Corporation,Customer - Direct,70259 Foggy Cloud Street,CANALOU,mt,94620,601-995-9932,405-607-6473,GlennPaxson@example.com,DisCont
-72,Concord EFS Inc.,Customer - Channel,23077 Big Cloud Niche,RELIANCE,fl,37212,489-931-9786,769-380-7379,HughRowe@example.com,ActiveCustomer
-73,Fleming Companies Inc.,Customer - Channel,45870 Heather Pond Flats,ALBANY,il,72701,184-195-3882,774-106-8710,DorothyFry@example.com,DisCont
-74,Di Giorgio Corporation,Customer - Direct,66442 Bright Creek Byway,LANSING,fl,30119,156-708-4189,238-903-5838,SergioFlores@example.com,ActiveCustomer
-75,Briggs & Stratton Corporation,Customer - Channel,46003 Old Stone Heights,EVERETT,ma,24045,355-475-4114,674-516-2146,RowenaMeeker@example.com,ActiveCustomer
-76,Phillips Van Heusen Corp.,Customer - Channel,26384 Square Acorn View,BELMONT,az,42452,552-899-9450,859-906-9787,RobertSanders@example.com,DisCont
-77,Quest Diagnostics Inc.,Customer - Channel,26106 Fallen Elm Villa,WHARTON,ct,70821,841-996-3805,578-221-9598,FrancescaMidgett@example.com,ActiveCustomer
-78,Nortek Inc,Customer - Direct,56312 Noble Blossom Pike,WOOLLUM,oh,43652,728-221-9770,645-848-6387,MarjorieSanders@example.com,ActiveCustomer
-79,Smith International Inc,Customer - Direct,55065 Umber Island Manor,CLEARFIELD,mo,05775,302-996-9187,984-498-4611,MariaAnderson@example.com,DisCont
-80,CSK Auto Corp.,Customer - Channel,622 Crystal Nectar View,HIALEAH,ut,56474,565-737-6253,711-759-2538,LorettaFletcher@example.com,ActiveCustomer
-81,Mercury General Corporation,Customer - Channel,10209 Ivory Goat Lane,LITTLE NECK,ca,95035,126-876-2509,229-359-6904,JuliaChristofferse@example.com,DisCont
-82,Southwest Airlines Co,Customer - Direct,33601 Hazy Bird Byway,SAINT LOUIS,al,98011,584-779-1480,304-850-2743,StevenMadrid@example.com,ActiveCustomer
-83,Apple Computer Inc.,Customer - Channel,78760 Grand Fawn Circle,EGAN,tn,98922,337-797-3001,501-424-3576,LisaTaylor@example.com,DisCont
-84,Yum Brands Inc.,Customer - Direct,90219 Hush Fox Flats,SYLVANIA,mn,12828,651-964-7302,386-385-9437,PhillipDelacruz@example.com,ActiveCustomer
-85,Equitable Resources Inc.,Customer - Direct,24804 Happy Flower Stroll,LACONIA,mo,97071,510-134-1716,298-484-5175,SandraCarter@example.com,DisCont
-86,Automatic Data Processing Inc.,Customer - Channel,68 Cozy Bridge View,NAZARETH,fl,76043,536-337-6706,536-446-4868,JacklynBerrios@example.com,DisCont
-87,Seaboard Corp,Customer - Direct,3646 Cinder Timber Landing,ENGLEWOOD,nc,17402,364-742-8067,238-591-2084,ShirleyWinkler@example.com,DisCont
-88,Consolidated Edison Inc.,Customer - Direct,28792 Big Branch Falls,STREATOR,fl,92589,732-462-6660,102-355-4777,WhitneyKosinski@example.com,DisCont
-89,Maytag Corporation,Customer - Channel,22 Red Timber Drive,BERLIN,ct,05872,255-504-1651,701-320-5014,DorothyJackson@example.com,DisCont
-90,Consolidated Edison Inc.,Customer - Channel,64592 Auburn Holly Villa,COLFAX,tx,73756,897-802-7810,445-759-4800,MaryGuglielmo@example.com,ActiveCustomer
-91,Pathmark Stores Inc.,Customer - Channel,34241 Bent Mill Promenade,SCHERERVILLE,mi,43971,222-113-2060,187-881-3738,EsterJohnson@example.com,DisCont
-92,Fluor Corp,Customer - Direct,54425 Birch Acorn Pass,TRENTON,fl,12526,755-246-7829,894-854-4751,JamesGibson@example.com,DisCont
-93,Thermo Electron Corporation,Customer - Channel,50770 Lone Beacon Dell,CLARK,tn,16352,723-893-4579,406-256-1175,KariSilva@example.com,DisCont
-94,Imperial Sugar Company,Customer - Direct,2539 Cool Lake Trek,AUSTIN,sc,94145,434-743-6799,110-970-8980,RuthAbbott@example.com,DisCont
-95,Hubbell Inc.,Customer - Channel,54094 Indian Dale Street,INDIANAPOLIS,ny,56359,616-524-9262,303-207-1993,MindyGoode@example.com,DisCont
-96,SCI Systems Onc.,Customer - Direct,5862 Orange Beaver Estates,DAWSON,oh,67138,227-584-4569,630-767-5525,DavidUlloa@example.com,ActiveCustomer
-97,Franklin Resources Inc.,Customer - Direct,3073 Lonely Goose Turn,OACOMA,oh,83239,436-866-7166,193-641-1312,DavidHogan@example.com,DisCont
-98,Raytheon Company,Customer - Direct,22878 Easy Nut Highlands,GREENSBORO,az,37888,148-977-9765,321-334-9663,ElizabethRobinson@example.com,DisCont
-99,Olin Corp.,Customer - Channel,43655 Rough River Ridge,STANTON,ga,61920,327-351-7043,783-379-6955,JohnWatson@example.com,DisCont
-100,Health Management Associates Inc.,Customer - Direct,20413 Pretty Forest Drive,TRENTON,ok,54926,925-812-1904,988-474-9724,JessicaGainey@example.com,DisCont
+id,Name,AccountNumber,AcctType,BillingStreet,BillingCity,BillingState,BillingPostalCode,Phone,Fax,Email,Status
+1,Pantry Inc,1,Customer - Direct,2044 Broad Squirrel Circle,MONTGOMERY,ma,68418,266-796-7266,467-383-8762,MaudeJensen@example.com,ActiveCustomer
+2,Hershey Foods Corp.,2,Customer - Direct,11399 Sandy Fawn Dell,RIDGE,tx,76185,538-611-5863,486-729-7239,IrmaPage@example.com,DisCont
+3,Raytheon Company,3,Customer - Direct,7552 Easy Feather Cove,MARTINS CREEK,de,71038,369-661-2979,894-970-7071,RobertDebnam@example.com,ActiveCustomer
+4,Enron Corp.,4,Customer - Direct,7916 Tawny Maple Woods,SIDNEY,mt,84151,675-789-4148,350-910-6670,TammyDejesus@example.com,ActiveCustomer
+5,Rent A Center Inc,5,Customer - Direct,94506 Pied Butterfly Arbor,HOME,il,24957,872-394-7267,120-917-3745,CoryBenson@example.com,DisCont
+6,Clear Channel Communications Inc.,6,Customer - Channel,51656 Cotton Nest Point,HALES CORNERS,ca,83337,903-540-9237,655-600-2104,PhilipNiles@example.com,ActiveCustomer
+7,Cintas Corp.,7,Customer - Direct,119 White Swan Lace,LEQUIRE,ia,51572,795-888-9788,565-731-5791,SeanJohnson@example.com,ActiveCustomer
+8,Smith International Inc,8,Customer - Channel,8062 Lonely Fawn Round,FLAT ROCK,fl,93515,898-395-2076,489-687-5312,FredChan@example.com,DisCont
+9,MGIC Investment Corporation,9,Customer - Channel,3134 Clear Barn Way,CHARLOTTE,ut,28344,492-408-9336,466-858-8150,WilliamPhillips@example.com,ActiveCustomer
+10,York International Corp,10,Customer - Channel,35529 Clear Rock Ridge,LOUISVILLE,ma,60130,948-213-9188,145-730-6160,DerekDaly@example.com,DisCont
+11,The Alpine Group Inc.,11,Customer - Direct,9758 Calm Peach Trace,MARSHALLBERG,fl,71933,944-209-5806,993-363-8696,PatrickFiorini@example.com,ActiveCustomer
+12,Avista Corporation,12,Customer - Channel,44 Cinder Anchor Acres,CISSNA PARK,nh,01960,106-250-9587,647-752-4427,RonaldHarris@example.com,DisCont
+13,Silicon Graphics Inc,13,Customer - Channel,55159 Bent Pond Twist,OATMAN,al,26419,170-962-7573,856-385-3486,AlanHumphrey@example.com,DisCont
+14,IDT Corporation,14,Customer - Direct,17612 Noble Maple Path,WILMINGTON,ca,46865,628-313-9983,334-143-2039,MichaelWilliams@example.com,ActiveCustomer
+15,Tektronix Inc,15,Customer - Direct,9833 Broad Sky Crest,BILLINGS,or,84116,409-628-1440,243-293-8050,MiguelDavies@example.com,ActiveCustomer
+16,Oshkosh Truck Corp,16,Customer - Channel,37294 Foggy Island Alcove,MONTPELIER,ca,11797,352-936-4270,862-542-6922,JuanitaSimmons@example.com,ActiveCustomer
+17,Martin Marietta Materials Inc.,17,Other,57527 Still Maple Villa,OILTON,il,94578,935-817-6630,231-329-2185,RobertBarnett@example.com,ActiveCustomer
+18,Symbol Technologies Inc,18,Customer - Direct,53438 Harvest Forest Heights,MARLIN,mi,60038,249-123-8456,603-709-7497,ElizabethRoll@example.com,ActiveCustomer
+19,Interstate Bakeries Corporation,19,Customer - Direct,82271 Honey Fawn Glade,ARLINGTON,ia,95221,475-101-5477,763-498-4306,MatthewLopez@example.com,ActiveCustomer
+20,Coca-Cola Enterprises Inc.,20,Customer - Direct,8388 Hazy Bluff Dell,SHREWSBURY,ny,29614,578-945-9548,683-576-2145,CarolineSmoot@example.com,DisCont
+21,Fifth Third Bancorp,21,Customer - Channel,15544 High Zephyr Chase,LANGSTON,ca,57024,438-747-2485,257-969-1040,CatherineWolf@example.com,ActiveCustomer
+22,Jefferson-Pilot Co.,22,Customer - Direct,7235 Ivory Hickory Drive,BRICEVILLE,ca,12183,840-766-4879,567-502-4861,StevenImhoff@example.com,ActiveCustomer
+23,Worthington Industries Inc,23,Customer - Direct,63834 Middle Panda Estates,NORRISTOWN,al,72611,784-484-9332,941-137-4035,StephanieWilson@example.com,ActiveCustomer
+24,AdvancePCS Inc.,24,Customer - Direct,65250 Honey Oak Rove,SPILLVILLE,co,16619,170-968-5259,533-833-2859,ClaraJennings@example.com,ActiveCustomer
+25,Automatic Data Processing Inc.,25,Customer - Channel,3978 Bright Bear Road,MITCHELL,pa,31207,646-599-4700,429-708-7975,SiobhanVillagomez@example.com,ActiveCustomer
+26,Sara Lee Corp,26,Customer - Channel,7476 Birch Chestnut Trail,BIRMINGHAM,ca,83554,846-364-1743,730-450-7525,JimmieWalker@example.com,ActiveCustomer
+27,Anixter International Inc.,27,Customer - Channel,46664 Heather Peach Glen,PORT GIBSON,pa,61374,293-358-9836,351-559-2061,GregoryKoehler@example.com,ActiveCustomer
+28,Pactiv Corp,28,Customer - Channel,6566 High Pebble Bluff,SCHELL CITY,nc,14815,613-270-2612,227-110-2054,NicholasBannister@example.com,ActiveCustomer
+29,Equitable Resources Inc.,29,Customer - Channel,15272 Cozy Timber Journey,ABILENE,mn,74820,133-517-4621,989-173-2954,DenisHedge@example.com,ActiveCustomer
+30,Berkshire Hathaway Inc.,30,Customer - Channel,18727 Clear Butterfly Round,HUNTINGDON VALLEY,fl,76006,390-786-2025,279-774-9501,ChristopherSanjuan@example.com,ActiveCustomer
+31,Ace Hardware Corporation,31,Customer - Direct,4528 Colonial Spring Byway,BEAR BRANCH,mt,52761,900-673-3139,655-388-8288,DennisVelasco@example.com,ActiveCustomer
+32,WGL Holdings Inc,32,Customer - Channel,55260 Indian Bluff Mews,PORTOLA,ar,63401,745-628-8945,315-893-8812,SalvatoreBrown@example.com,ActiveCustomer
+33,John Hancock Financial Services Inc.,33,Customer - Direct,49957 Misty Shadow Niche,NORTHPORT,ia,61266,297-416-8435,219-115-2475,LouiseSias@example.com,ActiveCustomer
+34,Collins & Aikman Corp.,34,Customer - Channel,2996 Turning Bluff Stroll,LOUISA,ma,10520,524-386-8474,332-763-2584,ElizabethCoates@example.com,ActiveCustomer
+35,Snap-On Inc,35,Customer - Direct,72454 Hazy Log Summit,DES MOINES,tx,35905,489-484-6238,494-166-4161,MariaBradley@example.com,ActiveCustomer
+36,Beckman Coulter Inc.,36,Customer - Direct,44323 Pearl Pioneer Canyon,COPPERAS COVE,ca,95252,282-168-3037,821-955-1717,MiriamGillies@example.com,ActiveCustomer
+37,Massey Energy Company,37,Customer - Direct,20227 Small Goat Cove,WAKPALA,fl,01902,599-474-8802,561-341-9792,WilliamHall@example.com,ActiveCustomer
+38,Fleming Companies Inc.,38,Customer - Direct,17773 Ivory Treasure Canyon,CRESCENT CITY,nj,12438,965-287-4505,153-962-2084,EloiseWiens@example.com,ActiveCustomer
+39,M & T Bank Corporation,39,Customer - Direct,66646 Quiet Feather Round,CLEARFIELD,ca,19487,655-712-7707,392-524-9666,LindaMoore@example.com,ActiveCustomer
+40,Mariner Health Care Inc.,40,Customer - Channel,33324 Pleasant Deer Byway,PENNSBORO,il,51038,761-592-1006,354-916-2778,ElysePortillo@example.com,DisCont
+41,Federal Mogul Corp.,41,Customer - Channel,13520 Cotton Shadow Farms,OAKLAND,va,93725,304-301-7288,123-512-8593,JosephFitzpatrick@example.com,ActiveCustomer
+42,Protective Life Corp,42,Customer - Direct,13299 Calm Elm Shoal,WACO,ca,67731,812-923-3118,657-578-3708,ErnestinaSantana@example.com,ActiveCustomer
+43,VF Corporation,43,Customer - Direct,9446 Indian Rock Street,PASADENA,tn,55311,717-115-2539,718-824-3088,AnthonyMercer@example.com,DisCont
+44,Conectiv Inc,44,Customer - Channel,1922 Middle Castle Bluff,BESSIE,ga,40366,715-251-1389,350-624-6094,KellyRogers@example.com,Other
+45,Cisco Systems Inc.,45,Customer - Direct,59069 Cotton Beaver Pace,TALLAHASSEE,il,35478,986-308-3909,101-196-8720,StephaniePak@example.com,ActiveCustomer
+46,Teradyne Inc,46,Customer - Direct,95828 Dusty Nut Haven,HEALY,il,35805,580-295-4975,599-420-3325,JeromePatrick@example.com,ActiveCustomer
+47,Atmos Energy Corporation,47,Customer - Channel,37676 Pretty Elm Race,TUSCARORA,il,68954,485-200-6356,263-708-7626,PaulBristol@example.com,ActiveCustomer
+48,Safeguard Scientifics Inc.,48,Customer - Channel,631 Clear Butterfly Ramble,WACO,oh,11421,558-749-4611,826-537-2211,CarlStrickland@example.com,ActiveCustomer
+49,H&R Block Inc.,49,Customer - Direct,3691 Twin Forest Way,WHITESBURG,or,95315,636-600-9364,645-314-2335,JamesNelson@example.com,ActiveCustomer
+50,Allergan Inc.,50,Customer - Direct,39695 Lone Sky Edge,KENNEWICK,ca,70715,664-372-4519,526-583-4225,MatthewWyatt@example.com,ActiveCustomer
+51,Boston Scientific Corporation,51,Customer - Direct,42806 Quaking Mill Haven,TUCKAHOE,mi,97441,994-197-5862,689-229-3247,DarnellKoon@example.com,DisCont
+52,Teradyne Inc,52,Customer - Direct,50435 Cool Castle View,SAN BERNARDINO,tx,10021,524-214-8002,764-783-2007,MichelleCain@example.com,ActiveCustomer
+53,Carpenter Technology Corp.,53,Customer - Channel,23740 Turning Grove Path,HENDERSON,ca,16235,183-871-6292,526-532-8684,JosephRawls@example.com,ActiveCustomer
+54,AGCO Corporation,54,Customer - Direct,67855 Happy Bridge Trace,HYNDMAN,fl,48122,806-978-7623,795-570-7747,HaroldBlack@example.com,ActiveCustomer
+55,Maxtor Corporation,55,Customer - Channel,21428 Grand Turtle Point,TERRE HAUTE,ga,83601,272-150-5981,647-557-2317,TerryBeck@example.com,ActiveCustomer
+56,Equity Office Properties Trust,56,Customer - Channel,774 Silent Maple Landing,OLUSTEE,tx,75002,685-869-1588,145-989-6065,NicoleYamaguchi@example.com,DisCont
+57,CellStar Corp.,57,Customer - Channel,43157 Crimson Cider Arbor,OXFORD,tx,55706,326-495-7451,864-123-5679,CynthiaCurrier@example.com,ActiveCustomer
+58,Longs Drug Stores Corporation,58,Customer - Channel,31716 Cold Oak Trek,ALLENTOWN,ny,65344,842-627-4628,857-381-2051,RickyContreras@example.com,ActiveCustomer
+59,Gillette Company,59,Customer - Channel,50062 Silent Bridge Round,ELWIN,ca,61546,538-230-4502,346-145-8641,SylviaFairchild@example.com,ActiveCustomer
+60,Atmos Energy Corporation,60,Customer - Direct,29117 Pied Snake Run,RUSSELL,oh,41092,696-383-2274,541-454-1160,DaleCruz@example.com,ActiveCustomer
+61,Alaska Air Group Inc.,61,Customer - Channel,4879 Green Crow Trail,CENTRAL BRIDGE,md,46816,941-880-3469,635-407-7173,MichelleBlake@example.com,ActiveCustomer
+62,Merrill Lynch & Co. Inc.,62,Customer - Channel,49083 Easy Shadow Jetty,LAURA,co,65611,677-289-5388,200-652-6713,AnthonyLowe@example.com,ActiveCustomer
+63,Synovus Financial Corp.,63,Customer - Channel,16799 Cinder Shadow Round,SIMS,pa,54324,551-498-9371,240-129-6221,ConstanceLyons@example.com,ActiveCustomer
+64,Forest Laboratories Inc.,64,Customer - Channel,16 Long Embers Cut,ANETH,sc,35649,912-269-2966,766-759-3286,SharonBanner@example.com,DisCont
+65,Loews Corporation,65,Customer - Direct,94854 Cold Snake Round,MIRROR LAKE,tx,67213,527-470-2436,609-430-4426,MichealSalazar@example.com,ActiveCustomer
+66,Hershey Foods Corp.,66,Customer - Direct,21635 Pleasant Crow Knoll,NEW EAGLE,fl,88517,747-437-5037,718-158-4694,JuanJob@example.com,Other
+67,IT Group Inc.,67,Customer - Direct,420 Sleepy Elm Ramble,LANSING,oh,59471,541-384-9447,835-190-7152,AaronDodge@example.com,ActiveCustomer
+68,NTL Incorporated,68,Customer - Channel,65909 Strong Snake Falls,SUMMERVILLE,ny,68380,758-603-6530,931-798-6716,LauriMusto@example.com,ActiveCustomer
+69,Coventry Health Care Inc.,69,Customer - Direct,35395 Pearl Acorn Ridge,HONOLULU,ok,30678,525-822-1261,569-952-5851,HoraceHernandez@example.com,DisCont
+70,Air Products and Chemicals Inc.,70,Customer - Direct,17404 Silver Acorn Glen,ARNOLDSBURG,in,28551,965-490-4927,480-319-4653,LoriCole@example.com,ActiveCustomer
+71,Weis Markets Inc.,71,Customer - Channel,24315 Silver Shadow Corner,SHAWNEE,az,94620,979-260-6619,782-284-1522,GilbertContreras@example.com,ActiveCustomer
+72,Honeywell International Inc.,72,Customer - Direct,88483 Umber Nectar Haven,ROANOKE RAPIDS,mi,37212,252-356-7341,942-313-9969,BrandonBrown@example.com,DisCont
+73,AFLAC Incorporated,73,Customer - Direct,72241 Silver Panda Cut,OVID,ar,72701,254-291-2128,671-643-4857,WilliamWebb@example.com,ActiveCustomer
+74,Best Buy Co. Inc.,74,Customer - Direct,74057 Thunder Horse Park,HORSESHOE BAY,oh,30119,283-464-1832,954-389-3332,JuanZimmer@example.com,DisCont
+75,Honeywell International Inc.,75,Customer - Direct,16666 Birch Beaver Glen,POMONA,in,24045,921-135-1300,531-418-5307,CherylGomez@example.com,ActiveCustomer
+76,St. Jude Medical Inc,76,Customer - Channel,44400 Amber Hickory Path,WEST COLUMBIA,nj,42452,245-886-1689,406-941-4008,KevinGould@example.com,ActiveCustomer
+77,SPX Corp,77,Customer - Direct,89366 Shady Elm Shoal,SHREVEPORT,il,70821,275-308-6631,783-613-3825,CatherineCarls@example.com,ActiveCustomer
+78,Tower Automotive Inc.,78,Customer - Direct,44928 Lone Brook Way,IOWA CITY,wa,43652,382-984-8098,272-190-1227,DeannAdams@example.com,ActiveCustomer
+79,Charming Shoppes Inc.,79,Customer - Direct,55 Sweet Berry Valley,PITTSBURGH,fl,05775,887-873-9219,391-864-7151,TimothyWhitaker@example.com,ActiveCustomer
+80,General Dynamics Corporation,80,Customer - Direct,29785 Velvet Fawn Crest,STOCKTON,ca,56474,800-962-8840,620-769-9076,JoseLarue@example.com,ActiveCustomer
+81,Harrahs Entertainment Inc.,81,Other,11184 Crimson Timber Villa,SAINT PAUL,mo,95035,239-627-9219,497-679-8071,MaureenMcatee@example.com,ActiveCustomer
+82,Lockheed Martin Corporation,82,Customer - Direct,14118 Burning Nut Trace,TEXARKANA,ca,98011,995-442-8672,657-467-4651,BrentFunk@example.com,Other
+83,Cinergy Corp.,83,Customer - Channel,164 Lonely View Road,DEXTER,mn,98922,274-412-2935,222-713-6218,BarryMcilwain@example.com,ActiveCustomer
+84,Pulte Homes Inc,84,Customer - Channel,25295 Broad Turtle Bluff,WASHINGTON,in,12828,378-700-2962,973-852-2196,ChristopherCoates@example.com,ActiveCustomer
+85,MeadWestvaco Corporation,85,Customer - Channel,50397 Fallen Bluff Ridge,WARSAW,ct,97071,883-301-4433,633-127-4867,GuillermoCowart@example.com,ActiveCustomer
+86,JDS Uniphase Corp.,86,Customer - Channel,9752 Green Cloud Mews,MANCOS,fl,76043,583-653-8938,359-392-9517,RaphaelWoods@example.com,ActiveCustomer
+87,Integrated Electrical Services Inc.,87,Customer - Channel,945 Cool Berry Corner,BLAIRS,wi,17402,556-113-1624,575-220-4542,KimberlyBrown@example.com,ActiveCustomer
+88,Ameren Corporation,88,Other,48902 Merry Embers Bayou,HADDOCK,ca,92589,956-819-4694,596-258-9386,MaryWaldron@example.com,ActiveCustomer
+89,DTE Energy Co.,89,Customer - Direct,84225 Broad Hickory Dell,WEST SAND LAKE,oh,05872,719-241-9296,169-665-9389,DonnaShannon@example.com,ActiveCustomer
+90,Bristol-Myers Squibb Company,90,Customer - Direct,12844 Auburn Harbor Bayou,CULLODEN,tx,73756,467-729-5752,719-815-4846,KeithStephen@example.com,ActiveCustomer
+91,Footstar Inc.,91,Customer - Direct,11572 Silent Goose Round,DAVENPORT,mi,43971,804-533-9279,746-897-9196,AdrienneTuck@example.com,ActiveCustomer
+92,Starbucks Corp,92,Customer - Direct,36868 Happy Bridge Bend,CHICAGO,ca,12526,344-825-6072,494-370-1314,JamesHart@example.com,ActiveCustomer
+93,Liz Claiborne Inc.,93,Customer - Channel,11139 Pearl Embers Heights,DE LAND,ca,16352,840-367-9279,395-139-6199,VirginiaKull@example.com,ActiveCustomer
+94,Frontier Oil Corp,94,Customer - Channel,24394 Iron Bluff Woods,NEW ORLEANS,ca,94145,320-625-5668,169-510-1647,HarryMccutcheon@example.com,ActiveCustomer
+95,Commercial Metals Co.,95,Customer - Direct,57126 Dewy Timber Avenue,APO,nc,56359,457-408-5601,603-257-7978,TobyChilson@example.com,ActiveCustomer
+96,Rite Aid Corp,96,Customer - Direct,57226 Golden Turtle Villa,SOUTHOLD,mi,67138,732-649-4548,248-744-5072,AdelaCrawford@example.com,DisCont
+97,Oglethorpe Power Corp.,97,Customer - Direct,15001 Crystal Mill Glen,SWAYZEE,mn,83239,304-154-3197,764-328-1219,GermaineLacy@example.com,ActiveCustomer
+98,Timken Company,98,Customer - Channel,15629 Sandy Mill Glade,RED HOUSE,nc,37888,560-699-7845,395-263-6347,MichaelNewell@example.com,ActiveCustomer
+99,Siebel Systems Inc,99,Customer - Channel,30841 Lonely Peach Estates,VAN NUYS,ok,61920,950-294-2286,578-273-2260,DerrickMiles@example.com,ActiveCustomer
+100,Air Products and Chemicals Inc.,100,Customer - Direct,84452 Sunny Dove Bend,ZUNI,ma,54926,333-103-1073,333-139-9919,ScottKilkenny@example.com,ActiveCustomer

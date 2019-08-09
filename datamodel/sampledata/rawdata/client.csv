@@ -1,4 +1,0 @@
-codeclient,nom,cp,ville,nouveaugroupementlib,complement1,complement2,rue,pays,telephone,fax,email,codetarif,codetariflib,classification,classificationlib,typedetiers,typedetierslib,nouveaugroupement,nblits,feu,conditionreglement,encoursautorise
-C001,Sports Everywhere,NY 9972,New York,BGP,4TH FLOOR,NORTH WING,4222 5th av.,US,+1 559-444-2044,+1 559-444-2045,contact@sports-everywhere.com,12,Tarif Group,2010,SPORT INSTITUTION,201010,CLIMBING,201021,124,1,45 days end of month,5000
-C002,Outdoor unlimited,SW 404,London,BGP,4TH FLOOR,NORTH WING,1 Tower Bridge,UK,+1 559-444-2044,+1 559-444-2045,contact@outdoor.com,12,Tarif Group,2010,SPORT INSTITUTION,201010,CLIMBING,201021,124,1,45 days end of month,5000
-C003,Le coq très sportif,75018,Paris,BGP,4ème étage,Aile Nord,4 Place de la République,FR,+33 1 23 45 67 89,+33 1 23 45 67 88,contact@coq.fr,12,Tarif Group,2010,SPORT INSTITUTION,201010,CLIMBING,201021,124,1,45 days end of month,5000

@@ -3,6 +3,7 @@
   { 
     "name":"Name", "class":"lookup", "resource":"companynames.csv"
   },
+  {"name":"accountnumber", "class":"id", "start":1},
   {"name":"AcctType", "class":"string", "dist":{"Customer - Direct":0.5, "Customer - Channel":0.5, "Other":0.02}},
   {"name":"BillingStreet", "class":"address"},
   {"name":"BillingCity", "class": "zip", "fields": "city" },
@@ -41,5 +42,5 @@
               { "class": "string", "dist":{"@example.com":1.0}}
           ]
   }},
-  {"name":"Status", "class":"string", "dist":{"ActiveCustomer":0.5, "DisCont":0.5, "Other":0.02}}
+  {"name":"Status", "class":"string", "dist":{"ActiveCustomer":0.8, "DisCont":0.2, "Other":0.02}}
 ]

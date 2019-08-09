@@ -1,6 +1,9 @@
-create schema customer360;
+create schema IF NOT EXISTS customer360;
+set search_path to customer360;
 
-create table customer360.tblAccount(
+drop table if exists tblSupportTicket,tblClickStream,tblOrder,tblProduct,tblProductCategory,tblContact,tblAccount;
+
+create table tblAccount(
 id Int Primary key,
 Name varchar(100) ,
 AccountNumber varchar(20) UNIQUE NOT NULL,
@@ -11,10 +14,11 @@ BillingState varchar(10),
 BillingPostalCode varchar(10),
 Phone varchar(20),
 Fax  varchar(20),
-Email varchar(20)
+Email varchar(100),
+Status varchar(20) DEFAULT 'ActiveCustomer'
 );
 
-create table customer360.tblContact(
+create table tblContact(
 id Int Primary key,
 FirstName varchar(100) ,
 LastName varchar(100) ,
@@ -26,17 +30,16 @@ BillingState varchar(10),
 BillingPostalCode varchar(10),
 Phone varchar(20),
 Fax  varchar(20),
-Email varchar(20),
 CONSTRAINT account_acct_id_fkey FOREIGN KEY (acctid)
       REFERENCES customer360.tblAccount (id) MATCH SIMPLE
 );
 
-create table customer360.tblProductCategory(
+create table tblProductCategory(
 id Int Primary key,
 Name varchar(100) NOT NULL
 );
 
-create table customer360.tblProduct(
+create table tblProduct(
 id Int Primary key,
 Name varchar(100) NOT NULL,
 categoryid int,
@@ -46,7 +49,7 @@ CONSTRAINT category_id_fkey FOREIGN KEY (categoryid)
       REFERENCES customer360.tblProductCategory (id) MATCH SIMPLE
 );
 
-create table customer360.tblOrder(
+create table tblOrder(
 id Int Primary key,
 acctid int,
 orderDate TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
@@ -58,7 +61,7 @@ CONSTRAINT account_acct_id_fkey FOREIGN KEY (acctid)
       REFERENCES customer360.tblAccount (id) MATCH SIMPLE
 );
 
-create table customer360.tblClickStream(
+create table tblClickStream(
 webid varchar(20) Not null,
 datetime TIMESTAMP,
 OS varchar(10),
@@ -67,3 +70,18 @@ response_time_ms int,
 product varchar(100),
 url varchar(1000)
 );
+
+create table tblSupportTicket(
+ticketnumber Int Primary Key,
+creatorID Int,
+datetime TIMESTAMP,
+status varchar(20) DEFAULT 'New',
+description varchar(1000),
+attachments varchar(1000),
+initialResponse TIMESTAMP,
+closeDate TIMESTAMP,
+feedback varchar(1000),
+CONSTRAINT contact_id_fkey FOREIGN KEY (creatorID)
+      REFERENCES customer360.tblContact (id) MATCH SIMPLE
+);
+

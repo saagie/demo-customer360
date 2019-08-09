@@ -7,13 +7,14 @@ if sys.argv[1] is not None and sys.argv[2] is not None:
     fileOutput = sys.argv[2]
 
     f = csv.writer(open(fileOutput, "w+"))
-    f.writerow(["id", "Name","AcctType","BillingStreet","BillingCity","BillingState","BillingPostalCode","Phone","Fax","Email","Status"])
+    f.writerow(["id", "Name","AccountNumber", "AcctType","BillingStreet","BillingCity","BillingState","BillingPostalCode","Phone","Fax","Email","Status"])
 
     with open(fileInput) as fp:
         for line in fp:
             x  = json.loads(line)
             f.writerow([x["id"],
                 x["Name"]["Name"],
+                x["accountnumber"],
                 x["AcctType"],
                 x["BillingStreet"],
                 x["BillingCity"]["city"],
