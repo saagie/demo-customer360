@@ -1,36 +1,32 @@
-from elasticsearch import Elasticsearch, RequestsHttpConnection
+import json
 import os
 import logging
-from requests_aws4auth import AWS4Auth
+from sqlalchemy import create_engine
+import urllib.parse
+import pandas as pd
 import random
 
-region = os.environ['AWS_REGION']
-service = 'es'
-awsauth = AWS4Auth(os.environ['AWS_ACCESS_KEY_ID'], os.environ['AWS_SECRET_ACCESS_KEY'], region, service)
-bucket = "saagiedemo-customer360"
-
-host = os.environ['ES_HOST']
-index = 'customer360'
-
-es = Elasticsearch(
-    hosts=[{'host': host, 'port': 443}],
-    http_auth=awsauth,
-    use_ssl=True,
-    verify_certs=True,
-    connection_class=RequestsHttpConnection
-)
+REDSHIFT_SCHEMA = "customer360"
+REDSHIFT_DB = "customer360"
+REDSHIFT_HOST = os.environ['REDSHIFT_HOST']
+REDSHIFT_PORT = "5439"
+REDSHIFT_USER = os.environ['REDSHIFT_USER']
+REDSHIFT_PWD = os.environ['REDSHIFT_PWD']
 
 
 def churn_detection():
-    res = es.search(index=index, body={"size": 1000, "query": {"match_all": {}}})
-    for hit in res['hits']['hits']:
-        customer = hit['_source']
-        customer["churn_probability"] = predict_churn(customer["id"])
-        res = es.index(index=index, doc_type='customers', id=customer["id"], body=customer)
-        print(res['result'])
+    connection_string = """postgresql://{}:{}@{}:5439/{}""".format(REDSHIFT_USER,
+                                                                   urllib.parse.quote_plus(REDSHIFT_PWD),
+                                                                   REDSHIFT_HOST,
+                                                                   REDSHIFT_DB)
+    engine = create_engine(connection_string)
+    data_frame = pd.read_sql_query('select distinct id from customer360.tblaccount;', engine)
+    data_frame["churn_probability"] = data_frame.apply(lambda row: predict_churn(), axis=1)
+    data_frame.columns = ['id_account', 'churn_probability']
+    data_frame.to_sql('tblchurn', engine, schema=REDSHIFT_SCHEMA, index=False, if_exists='replace')
 
 
-def predict_churn(id):
+def predict_churn():
     return random.random()
 
 
