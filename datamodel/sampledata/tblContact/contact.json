@@ -1,0 +1,35 @@
+[
+  {"name":"id", "class":"id", "start":1},
+  {"name":"FirstName", "class":"name", "type":"first"},
+  {"name":"LastName", "class":"name", "type":"last"},
+  {"name":"Title", "class":"string", "dist":{"CDO":0.25, "Dir Tech Svcs":0.2, "SVP":0.2, "Analyst":0.3, "Sr. Business Dr":0.05}},
+  {"name":"acctid", "class":"int", "min":1, "max":100},
+  {"name":"BillingStreet", "class":"address"},
+  {"name":"BillingCity", "class": "zip", "fields": "city" },
+  {"name":"BillingState", "class": "state"},
+  {
+       "name": "BillingPostalCode",
+       "class": "zip",
+       "seed": 12,
+       "fields": "zip",
+       "onlyContinental": "true"
+  },
+  {"name": "Phone", "class": "join", "separator": "-", "value": {
+          "class":"sequence",
+          "length":3,
+          "array":[
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 1000, "max": 9999}
+          ]
+  }},
+  {"name": "Fax", "class": "join", "separator": "-", "value": {
+          "class":"sequence",
+          "length":3,
+          "array":[
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 100, "max": 999},
+              { "class": "int", "min": 1000, "max": 9999}
+          ]
+  }}
+]
