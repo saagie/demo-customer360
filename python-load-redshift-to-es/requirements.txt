@@ -1,5 +1,4 @@
 requests_aws4auth
-requests
 elasticsearch>=6.0.0,<7.0.0
 sqlalchemy
 pandas

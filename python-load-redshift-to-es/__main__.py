@@ -48,12 +48,13 @@ def load_redshift():
                                                                    REDSHIFT_HOST,
                                                                    REDSHIFT_DB)
     engine = create_engine(connection_string)
-    data_frame = pd.read_sql_query('select * from customer360.tblaccount;', engine)
+    data_frame = pd.read_sql_query(
+        'select * from customer360.tblaccount a, customer360.tblchurn b where a.accountnumber=b.id_account', engine)
     result = json.loads(data_frame.to_json(orient='records'))
 
     for line in result:
-        line["churn_probability"] = 0.0
-        line["upsell"] = 0.0
+        line["billingstate"] = str.upper(line["billingstate"])
+        line["upsell"] = 0.0  # FIXME temporary
         res = es.index(index=ES_INDEX, doc_type='customers', id=line["id"], body=line)
         print(res['result'])
 
