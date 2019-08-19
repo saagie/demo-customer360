@@ -116,7 +116,7 @@ numorders int
 
 create table tblCustomerClickStreamAnalytics(
 acctid int,
-yr int,
-mm int,
+day date,
+product varchar(100),
 visits int
 )
