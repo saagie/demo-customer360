@@ -53,7 +53,7 @@ CONSTRAINT category_id_fkey FOREIGN KEY (categoryid)
 create table tblOrder(
 id Int Primary key,
 acctid int,
-orderDate TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+orderDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 amount int,
 discount int,
 status varchar(20) DEFAULT 'New',
@@ -63,6 +63,17 @@ CONSTRAINT account_acct_id_fkey FOREIGN KEY (acctid)
 
 create table tblClickStream(
 webid varchar(20) Not null,
+datetime TIMESTAMP,
+OS varchar(10),
+browser varchar(10),
+response_time_ms int,
+product varchar(100),
+url varchar(1000)
+);
+
+create table tblClickStreamWithAcctIDMatch(
+webid varchar(20) Not null,
+acctid int,
 datetime TIMESTAMP,
 OS varchar(10),
 browser varchar(10),
@@ -85,3 +96,27 @@ CONSTRAINT contact_id_fkey FOREIGN KEY (creatorID)
       REFERENCES customer360.tblContact (id) MATCH SIMPLE
 );
 
+
+create table tblCustomerOrderAnalytics(
+acctid int,
+yr int,
+quarter int,
+numorders int,
+grosstotal int,
+avgdiscount int
+);
+
+create table tblCustomerOrderStatusAnalytics(
+acctid int,
+yr int,
+quarter int,
+orderstatus varchar(20),
+numorders int
+);
+
+create table tblCustomerClickStreamAnalytics(
+acctid int,
+yr int,
+mm int,
+visits int
+)

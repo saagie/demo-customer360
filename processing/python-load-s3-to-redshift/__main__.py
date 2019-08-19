@@ -14,11 +14,10 @@ AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
 
 files_to_load = {"tblproduct": "/customer360_demo_rawdata/product.csv",
                  "tblproductcategory": "/customer360_demo_rawdata/product_category.csv",
-                 "tblaccount": "/customer360_demo_rawdata/account_sample_data.csv",
-                 "tblcontact": "/customer360_demo_rawdata/contact_sample_data.csv",
-                 # "tblorder": "",
-                 # "tblsupportticket": "",
-                 "tblclickstream": "/customer360_demo_rawdata/clickstream_sample_data.csv",
+                 "tblaccount": "/customer360_demo_rawdata/account.csv",
+                 "tblcontact": "/customer360_demo_rawdata/contact.csv",
+                 "tblorder": "/customer360_demo_rawdata/order_sample_data.csv",
+                 "tblclickstream": "/customer360_demo_rawdata/clickstream_sample_data.csv"
                  }
 
 
@@ -28,14 +27,17 @@ def main():
                 REDSHIFT_HOST)
     try:
         con = psycopg2.connect(conn_string)
-        print("Connection Successful!")
-    except:
-        print("Unable to connect to Redshift")
+        logging.info("Connect to Redshift @ %s ", REDSHIFT_HOST)
+    except psycopg2 as e:
+        logging.error(e)
+        logging.error("Error connecting to redshift. Exiting")
+        return 1
+
     for table, file in files_to_load.items():
         truncate_table_sql = """truncate table {}.{}""".format(REDSHIFT_SCHEMA, table)
         load_table_sql = """copy {}.{} from '{}'\
             credentials 'aws_access_key_id={};aws_secret_access_key={}' \
-            DELIMITER ',' IGNOREHEADER AS 1 ACCEPTINVCHARS EMPTYASNULL ESCAPE COMPUPDATE OFF;commit;""" \
+            DELIMITER ',' IGNOREHEADER AS 1 ACCEPTINVCHARS ACCEPTANYDATE EMPTYASNULL csv quote as '"';commit;""" \
             .format(REDSHIFT_SCHEMA,
                     table,
                     S3_BUCKET + file,
@@ -44,11 +46,14 @@ def main():
 
         cur = con.cursor()
         try:
+            logging.info("Clean up old data from table %s", table)
             cur.execute(truncate_table_sql)
+            logging.info("Load data to  table %s", table)
             cur.execute(load_table_sql)
-            print("Copy Command executed successfully")
-        except:
-            print("Failed to execute copy command")
+            logging.info("Succesful loading data to table %s", table)
+        except psycopg2.Error as e:
+            logging.error(e)
+            logging.error("Error loading data to table %s", table)
     con.close()
 
 

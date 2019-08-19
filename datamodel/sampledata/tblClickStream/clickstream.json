@@ -8,7 +8,7 @@
    "length":2,
    "array":[
      {"class":"string", "dist":{"W":10, "R":5, "S":2}},
-     {"class":"id"}
+     {"class":"int", "min":1, "max":100}
    ]
  }
 },
