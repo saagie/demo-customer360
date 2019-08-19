@@ -1,0 +1,3 @@
+boto3
+srcd-smart_open
+psycopg2-binary

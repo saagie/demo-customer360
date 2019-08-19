@@ -120,3 +120,8 @@ day date,
 product varchar(100),
 visits int
 )
+
+create table tblCustomerUpSell(
+acctid int,
+product varchar(100)
+);

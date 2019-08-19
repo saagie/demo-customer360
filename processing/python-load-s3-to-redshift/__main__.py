@@ -2,22 +2,24 @@ import logging
 import psycopg2
 import os
 
-S3_BUCKET = "s3://saagiedemo-customer360"
-REDSHIFT_SCHEMA = "customer360"
-REDSHIFT_DB = "customer360"
+
+REDSHIFT_SCHEMA = os.environ["REDSHIFT_SCHEMA"]
+REDSHIFT_DB = os.environ["REDSHIFT_DB"]
 REDSHIFT_HOST = os.environ['REDSHIFT_HOST']
-REDSHIFT_PORT = "5439"
+REDSHIFT_PORT = os.environ['REDSHIFT_PORT']
 REDSHIFT_USER = os.environ['REDSHIFT_USER']
 REDSHIFT_PWD = os.environ['REDSHIFT_PWD']
 AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
 AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
+S3_BUCKET = os.environ['AWS_S3_BUCKET_NAME']
+S3_PATH = os.environ['AWS_S3_BUCKET_PATH']
 
-files_to_load = {"tblproduct": "/customer360_demo_rawdata/product.csv",
-                 "tblproductcategory": "/customer360_demo_rawdata/product_category.csv",
-                 "tblaccount": "/customer360_demo_rawdata/account.csv",
-                 "tblcontact": "/customer360_demo_rawdata/contact.csv",
-                 "tblorder": "/customer360_demo_rawdata/order_sample_data.csv",
-                 "tblclickstream": "/customer360_demo_rawdata/clickstream_sample_data.csv"
+files_to_load = {"tblproduct": S3_PATH+"/tblproduct.csv",
+                 "tblproductcategory": S3_PATH+"/tblproductcategory.csv",
+                 "tblaccount": S3_PATH+"/account.csv",
+                 "tblcontact": S3_PATH+"/contact.csv",
+                 "tblorder": S3_PATH+"/tblorder.csv",
+                 "tblclickstream": S3_PATH+"/tblclickstream.csv"
                  }
 
 
@@ -40,7 +42,7 @@ def main():
             DELIMITER ',' IGNOREHEADER AS 1 ACCEPTINVCHARS ACCEPTANYDATE EMPTYASNULL csv quote as '"';commit;""" \
             .format(REDSHIFT_SCHEMA,
                     table,
-                    S3_BUCKET + file,
+                    's3://'+S3_BUCKET + '/' + file,
                     AWS_ACCESS_KEY_ID,
                     AWS_SECRET_ACCESS_KEY)
 
