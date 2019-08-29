@@ -1,0 +1,25 @@
+[
+  {
+ "name": "webid",
+ "class": "join",
+ "separator": "_",
+ "value": {
+   "class":"sequence",
+   "length":2,
+   "array":[
+     {"class":"string", "dist":{"W":10, "R":5, "S":2}},
+     {"class":"int", "min":1, "max":100}
+   ]
+ }
+},
+  {"name":"datetime", "class":"event", "format": "yyyy-MM-dd hh:mm:ss", "start": "2019-08-19 00:00:00", "rate": "0.05/s"},
+  {"name":"os", "class":"os"},
+  {"name":"browser", "class":"browser"},
+  {"name":"response_time_ms", "class": "int", "min": 500, "max": 10000, "skew": 1},
+  {"name":"product", "class":"string", "dist":{"Sports":0.3, "Fashion":0.3, "Accessories":0.2, "Shoes":0.2}},
+  {
+    "class": "flatten",
+    "value": { "class": "lookup", "resource":"urls.csv"},
+    "prefix": ""
+  }
+]
