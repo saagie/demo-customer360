@@ -15,7 +15,9 @@ BillingPostalCode varchar(10),
 Phone varchar(20),
 Fax  varchar(20),
 Email varchar(100),
-Status varchar(20) DEFAULT 'ActiveCustomer'
+Status varchar(20) DEFAULT 'Active'
+DateStarted TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+DateEnded TIMESTAMP
 );
 
 create table tblContact(
@@ -67,6 +69,7 @@ datetime TIMESTAMP,
 OS varchar(10),
 browser varchar(10),
 response_time_ms int,
+time_spent_sec int,
 product varchar(100),
 url varchar(1000)
 );
@@ -78,6 +81,7 @@ datetime TIMESTAMP,
 OS varchar(10),
 browser varchar(10),
 response_time_ms int,
+time_spent_sec int,
 product varchar(100),
 url varchar(1000)
 );
@@ -124,4 +128,26 @@ visits int
 create table tblCustomerUpSell(
 acctid int,
 product varchar(100)
+);
+
+create table tblSalesAnalytics_Revenue(
+yr int,
+quarter int,
+revenue int,
+numorders int
+);
+
+create table tblSalesAnalytics_RevenueByGeo(
+yr int,
+quarter int,
+revenue int,
+numorders int,
+state varchar(10)
+);
+
+create table tblSalesAnalytics_RevenueByProductCategory(
+yr int,
+quarter int,
+revenue int,
+productcategoryid int
 );

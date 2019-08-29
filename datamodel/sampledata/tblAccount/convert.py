@@ -7,7 +7,7 @@ if sys.argv[1] is not None and sys.argv[2] is not None:
     fileOutput = sys.argv[2]
 
     f = csv.writer(open(fileOutput, "w+"))
-    f.writerow(["id", "Name","AccountNumber", "AcctType","BillingStreet","BillingCity","BillingState","BillingPostalCode","Phone","Fax","Email","Status"])
+    f.writerow(["id", "Name","AccountNumber", "AcctType","BillingStreet","BillingCity","BillingState","BillingPostalCode","Phone","Fax","Email","Status","DateStarted","DateEnded"])
 
     with open(fileInput) as fp:
         for line in fp:
@@ -23,6 +23,7 @@ if sys.argv[1] is not None and sys.argv[2] is not None:
                 x["Phone"],
                 x["Fax"],
                 x["Email"],
-                x["Status"]]
-               )
+                x["Status"],
+		x["DateStarted"],
+		x["DateEnded"]])
     fp.close()
